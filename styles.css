@@ -1,0 +1,143 @@
+.bg-light {
+  background-color: rgba(189,92,41,255) !important;
+}
+
+.logo-pet-header{
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-light .navbar-brand{
+  color: white;
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: white;
+  font-size: 38px;
+  font-style: bold;
+  text-decoration: underline;
+}
+
+.banner {
+  height: 500px;
+  width: 100%;
+}
+
+.img-fluid{
+  height: 100%;
+}
+
+.card-phrase{
+  text-align: center;
+  color: white;
+  background-color: rgba(189,92,41,255);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card{
+  background-color: #DE9168;
+  border-radius: 20%;
+  margin-bottom: 50px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card-img-top{
+  background-color: white;
+  height: 200px;
+  width: 150px;
+  align-self: center;
+  margin-top: 20px;
+  border-radius: 20%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+  text-decoration: underline;
+
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: white;
+  text-decoration: underline;
+
+}
+
+.title-carrossel {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #FF7F50; /* Laranja */
+  height: 200px;
+  
+}
+.text-center{
+  margin-top: 20px;
+}
+.text-muted{
+  color: white !important;
+  font-weight: bold;
+  font-size: 48px;
+  vertical-align: middle;
+}
+.logo-pet{
+  width: 100px;
+  height: 100px;
+}
+
+/*cadastro*/
+
+.card-header{
+  text-align: center;
+  background: none;
+}
+
+.card-header h3{
+  color: black;
+  font-weight: bolder;
+}
+
+.background-cadastro{
+  color: #FF7F50;
+  background-color: rgba(189,92,41,255);
+}
+
+.card-cadastro{
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 50px;
+}
+
+.btn-cadastrar{
+  background-color: #36320A
+}
+.form-control {
+  background-color: #DE9168;
+  color: black;
+}
+.form-group input{
+  background-color: #DE9168;
+  color: black;
+}

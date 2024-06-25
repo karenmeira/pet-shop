@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Bootstrap e Carrossel de Produtos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Font Awesome (opcional, para ícones) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Barra de navegação -->
+        <nav class="navbar navbar-stile navbar-expand-lg navbar-light bg-light">
+            <img src="assets/images/logo_pet.png" class="logo-pet-header">
+            <a class="navbar-brand" href="#">Pet-Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOBRE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">CADASTRO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AGENDAMENTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carouselProdutos">PRODUTOS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Espaço para banner -->
+        <div class="banner">
+            <img src="assets/images/banner_img.jpg" class="img-fluid" alt="Banner">
+        </div>
+        <div class="card-phrase">
+            <h3>"Uma ração adequada é essencial para a saúde do seu pet. Escolha com cuidado, considerando suas necessidades específicas."</h3>
+        </div>
+        <!-- Carrossel de Produtos -->
+        <div class="title-carrossel">
+            <h2>PRODUTOS</h2>
+        </div>
+        <div id="carouselProdutos" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_1.png" class="card-img-top" alt="Produto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Racao Golden</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">R$ 79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_2.png" class="card-img-top" alt="Produto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Racao Golden</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">R$ 79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_3.png" class="card-img-top" alt="Produto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Racao Golden</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">R$ 79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_4.jpg" class="card-img-top" alt="Produto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Racao Golden</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">R$ 79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_5.jpg" class="card-img-top" alt="Produto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Racao Golden</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">R$ 79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_6.jpg" class="card-img-top" alt="Produto 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Produto 6</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">R$ 79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_7.jpg" class="card-img-top" alt="Produto 7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Racao Golden</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="assets/images/racao_8.jpg" class="card-img-top" alt="Produto 8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Racao Golden</h5>
+                                    <p class="card-text">Frango e Arroz</p>
+                                    <label class="preco">R$ 79,90</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselProdutos" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselProdutos" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Rodapé -->
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container text-center">
+                <img src="assets/images/logo_pet.png" class="logo-pet">
+                <span class="text-muted">Pet-Shop</span>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap JS (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Seu script personalizado -->
+    <script src="script.js"></script>
+</body>
+
+</html>
